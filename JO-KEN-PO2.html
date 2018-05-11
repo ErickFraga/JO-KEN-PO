@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>JO KEN PO!!!</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/MOu2DHQS9qZlA1xyX1CBUTN-DwvNnaCHX5ZZ4I7KUj97VOoaNRKRYiVc1ldlJaTHOUxGylpXd9OIJTX9z1Y2q4dABJaDM0KwDkqX1VYbC78UjApq0pLw7J73ECXZyfU-ldtvBYisyt3wzT8Qy1hqO3YmmeGdaKcPL977xbyiF6yx6CYivg-iMzBclR7hIUpyMdbweRgW-OwNpJEg4EnwuHMvHMr1WeH-U-z4Z_dlBnl__sFKKX1hoMxLrURR8suGXQ5_3CmcUhmuearhDYtKM4CROXMb7IP6p1Hr5FNQy5ycQERQPY7Nu6yrl4SR1BpJqFLC02iperlmxXlyj03S6tm3b0Xe0qii_WMnLjm6mH_h8hYzOk1vbNFtfbHxSH0d4aw0w5BVDAg3Wu8Nxa2-2TEIiZheSdhPJ_j0X52i6vo5lAiSekX4EsHpsULteaTTGmF0LIbytqVKGtHJolwaK1iH2YtHc7YPIclcUuLN3uveCRFgvlrEvbXQTwbsgh-ygz0ZTEx4wZSY6kRXoyJ0GmbS1SMjKGF_O5PGsPxk2AuzhsEKXL1NHaPFq2pVNQ93fYHrK7zMXEBd-1Wbp01nJo7zUfVYhUZBEXbULCI=w193-h204-no" type="image/gif" sizes="25x25">
+
+    <link type="text/css" href="JO-KEN-PO2.css" rel="stylesheet">
+    <script type="text/JavaScript" src="JO-KEN-PO2.js"> </script>
+</head>
+
+<body>
+    <br>
+    <div id="titulo"> JO - KEN - PÔ!!!</big>
+        <br>
+    </div>
+    <div class="group">
+        <div id="dpedra">
+            <button class="moldura1" type="button" onclick="Jogada('http://cap.dc.ufscar.br/~727350/images/pedra_jogador.png')">
+
+                <img class="imagem" id="pedra" alt="Pedra" src="http://museudafala.com/exposicoes/drummond/imagens3/pedra.png">
+                <div class="moldura2">
+                    <img class="pop-up" id="pedram" alt="Pedra" src="http://cap.dc.ufscar.br/~727350/images/pedra_jogador.png">
+                </div>
+
+            </button>
+        </div>
+
+        <div id="dpapel">
+            <button class="moldura1" type="button" onclick="Jogada('http://cap.dc.ufscar.br/~727350/images/papel_jogador.png')">
+
+                <img class="imagem" id="papel" alt="Papel" src="http://www.brmateriais.com.br/image/cache/data/produtos/papel2-500x500.png">
+                <div class="moldura2">
+                    <img class="pop-up" id="papelm" alt="Pedra-Mão" src="http://cap.dc.ufscar.br/~727350/images/papel_jogador.png">
+                </div>
+            </button>
+        </div>
+
+        <div id="dtesoura">
+            <button class="moldura1" type="button" onclick="Jogada('http://cap.dc.ufscar.br/~727350/images/tesoura_jogador.png')">
+                <img class="imagem" id="tesoura" alt="Tesoura" src="http://www.nortesul.net/automotiva/Uploads/images/0204870.png">
+                <div class="moldura2">
+                    <img class="pop-up" id="tesouram" alt="Tesoura-Mão" src="http://cap.dc.ufscar.br/~727350/images/tesoura_jogador.png">
+                </div>
+            </button>
+        </div>
+    </div>
+    <div id="regras">
+            <br>
+        <li>Vitória: 2 pontos</li>
+        <li>Empate: 1 ponto pra cada</li>
+        <li>Derrota: 0 pontos</li>
+        <br>
+    </div>
+    <br>
+
+    <div id="resultado" class="out" ></div>
+    
+        <div class="group" id="placar">
+            <div class="out divlateral" id="placarus">
+                <br>Você
+                <br>
+                <br>
+                <div id="pontosus">0</div>
+            </div>
+            <div class="divlateral" style="width: 20%;">
+                <img id="usuario" style="width: 150px;  margin-right: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Emojione_BW_2753.svg/2000px-Emojione_BW_2753.svg.png">
+            </div>
+            <div class="divlateral" style="width: 9%;top: 50px;">
+                <img style="width: 50px; top:-50px;" src="https://i0.wp.com/technobox.com.br/blog/wp-content/uploads/2017/08/VS.png">
+            </div>
+            <div class="divlateral" style="width: 20%;">
+                <img id="computador" style="width: 150px; margin-left: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Emojione_BW_2753.svg/2000px-Emojione_BW_2753.svg.png">
+            </div>
+            <div class="out divlateral" id="placarpc">
+                <br>Computador
+                <br>
+                <br>
+                <div id="pontospc">0</div>
+            </div>
+        </div>
+    
+</body>
+
+</html>

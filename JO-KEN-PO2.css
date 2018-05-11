@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body{
+    zoom: 80%;
+    background: url(https://i.ytimg.com/vi/tsjd7xdgfjA/maxresdefault.jpg) fixed;
+    background-size: 100%;
+}
+div {
+
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 62, 100, 0.1);
+    color: #149de2;
+    text-shadow: 1.5px 1px #001e2d;
+}
+
+button{
+    background: rgb(0,0,2,0.4);
+    border: 2px solid black;
+    border-radius: 50px;
+}
+img{
+    display: block;
+    left: 50%;
+    right: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img#pedra{
+    width: 230px;
+    float: left;
+}
+img#papel{
+    text-align: center;
+    width: 230px;
+    float: left;
+}
+img#tesoura{
+    width: 230px;
+    float: left;
+}
+
+div#titulo {
+    font-family: 'Skranji', cursive;
+    font-size: 60px;
+    border: 2px solid black;
+    border-radius: 30px 30px 0px 0px;
+    border-bottom-style: none;
+}
+
+div#dpedra{
+    width: 33.3%;
+    float: left;
+}
+div#dpapel{
+    width: 33.3%;
+    float: left;
+}
+div#dtesoura{
+    width: 33.3%;
+    float: left;
+
+}
+
+div#regras {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;: 'Arvo', serif;
+    font-size: 26px;
+    border: 2px solid black;
+    border-radius: 0px 0px 0px 0px;
+    border-top-style: none;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+.group{
+    width: 100%;
+    background: transparent;
+    border: 2px solid black;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+
+#placar {
+ border: none;
+ width: 980px;
+ transform: translateY(20px);
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#resultado{
+    font-size: 27px;
+    border: none;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 50%;
+    bottom: 50%;
+}
+#pontospc{
+    background-color: transparent;
+}
+#pontosus{
+    background-color: transparent;
+}
+
+.out{
+    text-align: center;
+    text-shadow: 3px 3px black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.moldura1 {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem {
+    display: block;
+}
+
+.moldura2 {
+    position: absolute;  
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 250px;
+    height: 0;
+    overflow: hidden;
+    transition: .2s ease;
+    background: transparent;
+}
+
+.moldura1:hover .moldura2 {
+    height: 100%;
+}
+
+.pop-up {
+  width: 250px;
+  left: 15px;
+  top: 30px;
+  position: absolute;
+}
+
+
+#pedram{
+    width: 220px;
+    left: 15px;
+    top: 30px;
+    position: absolute;
+}
+
+#papelm{
+    width: 220px;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+#tesouram{
+    width: 220px;
+    right: 25px;
+    top: 50px;
+    position: absolute;
+}
+
+#placarpc{
+    width: 230px;
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+    background: transparent;
+}
+
+#placarus{
+    width: 230px;
+    height: 100px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: transparent;
+}
+
+.divlateral{
+    background: transparent;
+    position: relative;
+    width: 20%;
+    float: left;
+}
+
+#game{
+    font-size: 30px;
+    color: #149de2;
+}
