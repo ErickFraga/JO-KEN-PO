@@ -1,4 +1,4 @@
 # JO-KEN-PO
 
-    JO-KEN-PO Game. You know how play it. S2
+    JO-KEN-PO against the browser, do you know how to play.
 
