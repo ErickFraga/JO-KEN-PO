@@ -1,4 +1,4 @@
 # JO-KEN-PO
 
-    JO-KEN-PO against the browser, do you know how to play.
+    JO-KEN-PO against the browser, you know how to play!
 
